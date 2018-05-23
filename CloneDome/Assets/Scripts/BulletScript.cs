@@ -1,24 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using XboxCtrlrInput;
 public class BulletScript : MonoBehaviour {
 
-    public GameObject bulletSpawner;
+  
 
-    public float bulletSpeed = 20;
-
-    public GameObject bulletPrefab;
-
-    public Transform bulletSpawnPoint;
-
-	// Update is called once per frame
-	void Update ()
+    void OnCollisionEnter(Collision other)
     {
-		if (Input.GetKeyDown(KeyCode.Space))
+        Debug.Log(other.gameObject.tag);
+        if (other.gameObject.tag == "Player2")
         {
-            GameObject GO = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity) as GameObject;
-            GO.GetComponent<Rigidbody>().AddForce(bulletSpawner.transform.forward * bulletSpeed, ForceMode.Impulse);
+            Destroy(other.gameObject);
         }
-	}
+    }
 }
