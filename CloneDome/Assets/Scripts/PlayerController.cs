@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public float movementSpeed = 60;
     public float maxSpeed = 5;
 
+    public Vector3 previousRotationDirection = Vector3.forward;
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
@@ -36,6 +37,28 @@ public class PlayerController : MonoBehaviour
         {
             rigidBody.velocity = rigidBody.velocity.normalized * maxSpeed;
         }
+    }
+
+    private void Update()
+    {
+        RotatePlayer();
+    }
+     
+    private void RotatePlayer()
+    {
+        float rotateAxisX = XCI.GetAxis(XboxAxis.LeftStickX, controller);
+        float rotateAxisZ = XCI.GetAxis(XboxAxis.LeftStickY, controller);
+
+        Vector3 directionVector = new Vector3(rotateAxisX, 0, rotateAxisZ);
+
+        if (directionVector.magnitude <0.1f)
+        {
+            directionVector = previousRotationDirection;
+        }
+
+        directionVector = directionVector.normalized;
+        previousRotationDirection = directionVector;
+        transform.rotation = Quaternion.LookRotation(directionVector);
     }
 }
 
