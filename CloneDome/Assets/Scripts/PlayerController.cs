@@ -17,19 +17,28 @@ public class PlayerController : MonoBehaviour
     //Sets the base rotation direction.
     public Vector3 previousRotationDirection = Vector3.forward;
 
-    //Calls the rigidbody at the start of the game.
+    // Start ()
+    // Called on intialization
+    // Return:
+    //     Void
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
     }
 
-    //Updates every fixed frame with player movement.
+    // FixedUpdate ()
+    // Called on every fixed frame.
+    // Return:
+    //     Void
     private void FixedUpdate()
     {
         MovePlayer();
     }
 
-    //Sets the player moevment to the controller.
+    // MovePlayer ()
+    // Called whenever MovePlayer is called.
+    // Return:
+    //     Void
     private void MovePlayer()
     {
         float axisX = XCI.GetAxis(XboxAxis.LeftStickX, controller);
@@ -44,12 +53,18 @@ public class PlayerController : MonoBehaviour
             rigidBody.velocity = rigidBody.velocity.normalized * maxSpeed;
         }
     }
-
+    // Update ()
+    // Called on every frame.
+    // Return:
+    //     Void
     private void Update()
     {
         RotatePlayer();
     }
-     
+    // RotatePlayer ()
+    // Called whenever RotatePlayer is called.
+    // Return:
+    //     Void
     private void RotatePlayer()
     {
         float rotateAxisX = XCI.GetAxis(XboxAxis.LeftStickX, controller);
