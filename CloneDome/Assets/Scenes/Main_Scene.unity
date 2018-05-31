@@ -146,7 +146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -57, y: -15}
+  m_AnchoredPosition: {x: -62, y: -319}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1590051
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.74652797, g: 0.7794118, b: 0.183391, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -212,7 +212,7 @@ MonoBehaviour:
   bulletSpawner: {fileID: 37724727}
   bulletSpeed: 20
   shootDelay: 1
-  bulletPrefab: {fileID: 1458310743697932, guid: f68368e3ea464ea4c89cd9bc3018cd12,
+  bulletPrefab: {fileID: 1856828927981500, guid: f68368e3ea464ea4c89cd9bc3018cd12,
     type: 2}
   bulletSpawnPoint: {fileID: 37724728}
   controller: 2
@@ -248,7 +248,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 80.5, y: 15}
+  m_AnchoredPosition: {x: 165, y: 304.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &99431914
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0.46206903, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -391,7 +391,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4375637528229240, guid: 87ea11668d147254fb32607bd84a136d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -34
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4375637528229240, guid: 87ea11668d147254fb32607bd84a136d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -800,7 +800,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4333546925797054, guid: 735fe5044d6898d4fa984eb96bef0f0d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 7.5
+      value: -34.5
       objectReference: {fileID: 0}
     - target: {fileID: 4333546925797054, guid: 735fe5044d6898d4fa984eb96bef0f0d, type: 2}
       propertyPath: m_LocalRotation.x
@@ -946,7 +946,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80.5, y: -16}
+  m_AnchoredPosition: {x: 166, y: -316}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &552977432
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.033088222, g: 0.75, b: 0.21602422, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   bulletSpawner: {fileID: 737394404}
   bulletSpeed: 20
   shootDelay: 1
-  bulletPrefab: {fileID: 1458310743697932, guid: f68368e3ea464ea4c89cd9bc3018cd12,
+  bulletPrefab: {fileID: 1856828927981500, guid: f68368e3ea464ea4c89cd9bc3018cd12,
     type: 2}
   bulletSpawnPoint: {fileID: 737394405}
   controller: 2
@@ -1557,7 +1557,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -57, y: 15}
+  m_AnchoredPosition: {x: -61, y: 304.5}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1007805871
@@ -1572,7 +1572,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8308824, g: 0.054984864, b: 0.054984864, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2002,7 +2002,7 @@ MonoBehaviour:
   bulletSpawner: {fileID: 1255427225}
   bulletSpeed: 20
   shootDelay: 1
-  bulletPrefab: {fileID: 1458310743697932, guid: f68368e3ea464ea4c89cd9bc3018cd12,
+  bulletPrefab: {fileID: 1856828927981500, guid: f68368e3ea464ea4c89cd9bc3018cd12,
     type: 2}
   bulletSpawnPoint: {fileID: 1255427226}
   controller: 2
@@ -2405,7 +2405,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4742449715653338, guid: 24450b84730899440b618b27532158c8, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 7.5
+      value: -34.5
       objectReference: {fileID: 0}
     - target: {fileID: 4742449715653338, guid: 24450b84730899440b618b27532158c8, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2500,7 +2500,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4838906796368750, guid: cf164198badc34448abf179e133e2a27, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -34.5
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 4838906796368750, guid: cf164198badc34448abf179e133e2a27, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2522,6 +2522,36 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114179033836339672, guid: cf164198badc34448abf179e133e2a27,
+        type: 2}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1083464315716024, guid: 176247362584af64e96582ae07d3b820,
+        type: 2}
+    - target: {fileID: 114087080638389792, guid: cf164198badc34448abf179e133e2a27,
+        type: 2}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1083464315716024, guid: 176247362584af64e96582ae07d3b820,
+        type: 2}
+    - target: {fileID: 114194945758226666, guid: cf164198badc34448abf179e133e2a27,
+        type: 2}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1083464315716024, guid: 176247362584af64e96582ae07d3b820,
+        type: 2}
+    - target: {fileID: 114412596633760950, guid: cf164198badc34448abf179e133e2a27,
+        type: 2}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1083464315716024, guid: 176247362584af64e96582ae07d3b820,
+        type: 2}
+    - target: {fileID: 114188784244628744, guid: cf164198badc34448abf179e133e2a27,
+        type: 2}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1083464315716024, guid: 176247362584af64e96582ae07d3b820,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cf164198badc34448abf179e133e2a27, type: 2}
   m_IsPrefabParent: 0
@@ -2633,7 +2663,7 @@ MonoBehaviour:
   bulletSpawner: {fileID: 1802799267}
   bulletSpeed: 20
   shootDelay: 1
-  bulletPrefab: {fileID: 1458310743697932, guid: f68368e3ea464ea4c89cd9bc3018cd12,
+  bulletPrefab: {fileID: 1856828927981500, guid: f68368e3ea464ea4c89cd9bc3018cd12,
     type: 2}
   bulletSpawnPoint: {fileID: 1802799268}
   controller: 2
@@ -2941,7 +2971,7 @@ MonoBehaviour:
   bulletSpawner: {fileID: 1971126280}
   bulletSpeed: 20
   shootDelay: 1
-  bulletPrefab: {fileID: 1458310743697932, guid: f68368e3ea464ea4c89cd9bc3018cd12,
+  bulletPrefab: {fileID: 1856828927981500, guid: f68368e3ea464ea4c89cd9bc3018cd12,
     type: 2}
   bulletSpawnPoint: {fileID: 1971126281}
   controller: 2
@@ -2986,7 +3016,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.5955882, g: 0.525519, b: 0.525519, a: 0}
+  m_BackGroundColor: {r: 0.2352941, g: 0.2352941, b: 0.2352941, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -3216,7 +3246,7 @@ Light:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2130815875}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 0.599481, g: 0.8049875, b: 0.8235294, a: 1}
