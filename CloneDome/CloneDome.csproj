@@ -348,6 +348,11 @@
     <Compile Include="Assets\Scripts\BulletSpawnP4.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerScoreScript1.cs" />
+    <Compile Include="Assets\Scripts\PlayerScoreScript2.cs" />
+    <Compile Include="Assets\Scripts\PlayerScoreScript3.cs" />
+    <Compile Include="Assets\Scripts\PlayerScoreScript4.cs" />
+    <Compile Include="Assets\Scripts\ScoreScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Downloaded\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
