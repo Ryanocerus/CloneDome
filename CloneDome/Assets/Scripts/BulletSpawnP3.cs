@@ -37,7 +37,7 @@ public class BulletSpawnP3 : MonoBehaviour {
     {
         internalShootDelay -= Time.deltaTime;
 
-        if (internalShootDelay < 0 && Input.GetKeyDown(KeyCode.Joystick3Button0))
+        if (internalShootDelay < 0 && Input.GetKeyDown(KeyCode.Joystick3Button5))
         {
             GameObject GO = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity) as GameObject;
             GO.GetComponent<Rigidbody>().AddForce(bulletSpawner.transform.forward * bulletSpeed, ForceMode.Impulse);

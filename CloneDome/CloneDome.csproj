@@ -347,6 +347,10 @@
     <Compile Include="Assets\Scripts\BulletSpawnP3.cs" />
     <Compile Include="Assets\Scripts\BulletSpawnP4.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\JumpScriptP1.cs" />
+    <Compile Include="Assets\Scripts\JumpScriptP2.cs" />
+    <Compile Include="Assets\Scripts\JumpScriptP3.cs" />
+    <Compile Include="Assets\Scripts\JumpScriptP4.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerScoreScript1.cs" />
     <Compile Include="Assets\Scripts\PlayerScoreScript2.cs" />
